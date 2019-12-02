@@ -1,0 +1,15 @@
+[ignore]
+
+[include]
+
+[libs]
+flow-typed
+
+[lints]
+deprecated-utility=warn
+
+[options]
+esproposal.optional_chaining=enable
+module.name_mapper='^\([^\.].*\)$' -> '<PROJECT_ROOT>/src/\1'
+
+[strict]

@@ -1,0 +1,121 @@
+[
+    {
+      "id": 1,
+      "name": "Alpakų vilnos megztinis",
+      "price": 79.99,
+      "picture": "https://bucket-name-of-indre.s3.amazonaws.com/AlpakuVilnosMegztinis.jpg",
+      "hoveredPicture": "https://bucket-name-of-indre.s3.amazonaws.com/AlpakuVilnosMegztinisHovered.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Dvieilis pusvilnės paltas ",
+      "price": 129.99,
+      "picture": "https://bucket-name-of-indre.s3.amazonaws.com/DvieilisPusvilnEsPaltas.jpg",
+      "hoveredPicture": "https://bucket-name-of-indre.s3.amazonaws.com/DvieilisPusvilnesPaltasHovered.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Gėlėta suknelė",
+      "price": 44.99,
+      "picture": "https://bucket-name-of-indre.s3.amazonaws.com/GeletaSuknele.jpg",
+      "hoveredPicture": "https://bucket-name-of-indre.s3.amazonaws.com/GeletaSukneleHovered.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Kašmyro golfas",
+      "price": 89.99,
+      "picture": "https://bucket-name-of-indre.s3.amazonaws.com/KasmyroGolfas.jpg",
+      "hoveredPicture": "https://bucket-name-of-indre.s3.amazonaws.com/KasmyroGolfasHovered.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Megztinis iš vilnos ir moheros siūlų",
+      "price": 69.99,
+      "picture": "https://bucket-name-of-indre.s3.amazonaws.com/MegztinisIsVilnosIrMoherosSiulu.jpg",
+      "hoveredPicture": "https://bucket-name-of-indre.s3.amazonaws.com/MegztinisIsVilnosIrMoherosSiuluHovered.jpg"
+    },
+    {
+      "id": 6,
+      "name": "Moteriškos pirštinės",
+      "price": 19.99,
+      "picture": "https://bucket-name-of-indre.s3.amazonaws.com/MoteriskosPirstines.jpg",
+      "hoveredPicture": "https://bucket-name-of-indre.s3.amazonaws.com/MoteriskosPirstinesHovered.jpg"
+    },
+    {
+      "id": 7,
+      "name": "Odinis diržas",
+      "price": 14.99,
+      "picture": "https://bucket-name-of-indre.s3.amazonaws.com/OdinisDirzas.jpg",
+      "hoveredPicture": "https://bucket-name-of-indre.s3.amazonaws.com/OdinisDirzasHovered.jpg"
+    },
+    {
+      "id": 8,
+      "name": "Palaidinė su blizgučiais",
+      "price": 22.99,
+      "picture": "https://bucket-name-of-indre.s3.amazonaws.com/PalaidineSuBlizguciais.jpg",
+      "hoveredPicture": "https://bucket-name-of-indre.s3.amazonaws.com/PalaidineSuBlizguciaisHovered.jpg"
+    },
+    {
+      "id": 9,
+      "name": "Paprastas šalikas iš pusvilnės ",
+      "price": 14.99,
+      "picture": "https://bucket-name-of-indre.s3.amazonaws.com/PaprastasSalikasIsPusvilnes.jpg",
+      "hoveredPicture": "https://bucket-name-of-indre.s3.amazonaws.com/PaprastasSalikasIsPusvilnesHovered.jpg"
+    },
+    {
+      "id": 10,
+      "name": "Permatoma palaidinė rauktomis rankovėmis",
+      "price": 34.99,
+      "picture": "https://bucket-name-of-indre.s3.amazonaws.com/PermatomaPalaidineRauktomisRankovemis.jpg",
+      "hoveredPicture": "https://bucket-name-of-indre.s3.amazonaws.com/PermatomaPalaidineRauktomisRankovemisHovered.jpg"
+    },
+    {
+      "id": 11,
+      "name": "Plačiakraštė skrybėlė su vilna",
+      "price": 24.99,
+      "picture": "https://bucket-name-of-indre.s3.amazonaws.com/PlaciakrasteSkrybeleSuVilna.jpg",
+      "hoveredPicture": "https://bucket-name-of-indre.s3.amazonaws.com/PlaciakrasteSkrybeleSuVilnaHovered.jpg"
+    },
+    {
+      "id": 12,
+      "name": "Raštuota palaidinė",
+      "price": 22.99,
+      "picture": "https://bucket-name-of-indre.s3.amazonaws.com/RastuotaPalaidine.jpg",
+      "hoveredPicture": "https://bucket-name-of-indre.s3.amazonaws.com/RastuotaPalaidineHovered.jpg"
+    },
+    {
+      "id": 13,
+      "name": "Šalikas su vilnos priemaiša",
+      "price": 19.99,
+      "picture": "https://bucket-name-of-indre.s3.amazonaws.com/SalikasSuVilnosPriemaisa.jpg",
+      "hoveredPicture": "https://bucket-name-of-indre.s3.amazonaws.com/SalikasSuVilnosPriemaisaHovered.jpg"
+    },
+    {
+      "id": 14,
+      "name": "Šilkiniai marškiniai",
+      "price": 69.99,
+      "picture": "https://bucket-name-of-indre.s3.amazonaws.com/SilkiniaiMarskiniai.jpg",
+      "hoveredPicture": "https://bucket-name-of-indre.s3.amazonaws.com/SilkiniaiMarskiniaiHovered.jpg"
+    },
+    {
+      "id": 15,
+      "name": "Slim džinsai aukštu juosmeniu ",
+      "price": 29.99,
+      "picture": "https://bucket-name-of-indre.s3.amazonaws.com/SlimDzinsaiAukstuJuosmeniu.jpg",
+      "hoveredPicture": "https://bucket-name-of-indre.s3.amazonaws.com/SlimDzinsaiAukstuJuosmeniuHovered.jpg"
+    },
+    {
+      "id": 16,
+      "name": "Vilnonė beretė",
+      "price": 12.99,
+      "picture": "https://bucket-name-of-indre.s3.amazonaws.com/VilnoneBerete.jpg",
+      "hoveredPicture": "https://bucket-name-of-indre.s3.amazonaws.com/VilnoneBereteHovered.jpg"
+    },
+    {
+      "id": 17,
+      "name": "Zomšo ilgaauliai batai",
+      "price": 69.99,
+      "picture": "https://bucket-name-of-indre.s3.amazonaws.com/ZomsoIlgaauliaiBatai.jpg",
+      "hoveredPicture": "https://bucket-name-of-indre.s3.amazonaws.com/ZomsoIlgaauliaiBataiHovered.jpg"
+    }
+  ]
