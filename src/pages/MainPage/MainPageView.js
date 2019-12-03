@@ -5,7 +5,8 @@ import Cart from '../../components/Cart';
 import ChatWidget from '../../components/ChatWidget';
 import data from '../../data/data';
 
-class MainPageView extends React.Component<$State> {
+
+class MainPageView extends React.Component {
   constructor() {
     super();
 

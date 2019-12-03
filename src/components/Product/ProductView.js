@@ -12,7 +12,7 @@ type $Product = {
 
 type $Props = {
   product: $Product,
-  addToCart: () => void;
+  addToCart: ($Product) => void;
 }
 
 type $State = {
@@ -32,7 +32,7 @@ class ProductView extends React.Component<$Props, $State> {
     const { hover } = this.state;
     const { product, addToCart } = this.props;
 
-    return (
+    return product ? (
       <div className="col-md-4">
         <div className="card mb-3">
           <img
@@ -49,7 +49,7 @@ class ProductView extends React.Component<$Props, $State> {
           </div>
         </div>
       </div>
-    )
+    ) : null
   }
 }
 

@@ -6,19 +6,23 @@ import type { $Product } from '../Product';
 
 type $Props ={
   cartItems: $Product,
-  removeFromCart: () => void,
+  removeFromCart: ($Product) => void,
 }
 
 const CartView = ({cartItems, removeFromCart}: $Props) => {
-  const subtotal = cartItems.reduce((total, product) => {
-    return total + product.price * product.count
-  }, 0);
+  const subtotal =  cartItems
+    ? cartItems.reduce((total, product) => {
+      return total + product.price * product.count
+      }, 0)
+    : null;
 
-  const allItemsCount = cartItems.reduce((total, product) => {
-    return total + product.count
-  }, 0);
+  const allItemsCount = cartItems
+    ? cartItems.reduce((total, product) => {
+      return total + product.count
+    }, 0)
+    : null;
 
-  return (
+  return cartItems ? (
     <div className="border p-2 mb-4">
       <p>Prekių jūsų krepšelyje: {allItemsCount}</p>
       <hr />
@@ -40,7 +44,7 @@ const CartView = ({cartItems, removeFromCart}: $Props) => {
         </div>
       }
     </div>
-  )
+  ) : null
 }
 
 

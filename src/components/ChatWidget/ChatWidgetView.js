@@ -1,8 +1,9 @@
 import React from 'react';
 
-class ChatWidgetView extends React.Component {
+class ChatWidgetView extends React.Component<> {
   constructor(props) {
     super(props);
+
     this.state = {
       active: false,
       value: '',
@@ -29,7 +30,7 @@ class ChatWidgetView extends React.Component {
     const { supportMessages, indexOfSupport } = this.state;
 
     setTimeout(() => {
-      this.setState(state => {
+      this.setState((state) => {
         const conversation = state.conversation.concat(<p className='text-left'>{supportMessages[indexOfSupport]}</p>);
 
         return {
@@ -41,7 +42,7 @@ class ChatWidgetView extends React.Component {
   }
 
   sendMessage() {
-    this.setState(state => {
+    this.setState((state) => {
       const conversation = state.conversation.concat(state.value);
 
       return {
@@ -57,7 +58,7 @@ class ChatWidgetView extends React.Component {
 
     return (
       <ul className="p-0">
-        {conversation.map(item => (
+        {conversation.map((item) => (
           <li className="text-right" key={Math.random()}>{item}</li>
         ))}
       </ul>
@@ -97,7 +98,6 @@ class ChatWidgetView extends React.Component {
             </div>
           </div>
         </div>
-
       </div>
     ) : null
   }
