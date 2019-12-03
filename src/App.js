@@ -3,7 +3,7 @@ import MainPage from './pages/MainPage';
 
 import './App.css';
 
-function App() {
+const App = () => {
   return (
     <MainPage />
   );

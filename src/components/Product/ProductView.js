@@ -12,6 +12,7 @@ type $Product = {
 
 type $Props = {
   product: $Product,
+  addToCart: () => void;
 }
 
 type $State = {
@@ -29,11 +30,11 @@ class ProductView extends React.Component<$Props, $State> {
 
   render() {
     const { hover } = this.state;
-    const { product } = this.props;
+    const { product, addToCart } = this.props;
 
     return (
-      <div className="col-sm-4">
-        <div className="card mb-3" key={product.id}>
+      <div className="col-md-4">
+        <div className="card mb-3">
           <img
             className="card-img-top"
             src={hover ? product.hoveredPicture : product.picture}
@@ -43,8 +44,8 @@ class ProductView extends React.Component<$Props, $State> {
           />
           <div className="card-body">
             <h5 className="card-title">{product.name}</h5>
-            <p className="card-text">{product.price}</p>
-            <button className="btn btn-primary">I krepseli</button>
+            <p className="card-text">{`${product.price.toFixed(2)} €`}</p>
+            <button className="btn btn-primary" onClick={() => addToCart(product)}>I krepseli</button>
           </div>
         </div>
       </div>

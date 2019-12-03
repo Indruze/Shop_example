@@ -1,0 +1,69 @@
+.btn:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+.overlay, .button {
+  bottom: 23px;
+  right: 28px;
+}
+
+.header {
+  background: #17a2b8;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  width: 340px;
+  height: 60px;
+  border: 1px solid #17a2b8;
+}
+
+.popup {
+  background: #fff;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  width: 340px;
+  height: 370px;
+  overflow: auto;
+  border: 1px solid #17a2b8;
+}
+
+.close {
+  top: 0;
+  right: 5px;
+  font-size: 27px;
+  font-weight: normal;
+  color: #fff;
+}
+
+.close:hover {
+  color: #fff;
+}
+
+.close:focus {
+  outline: none;
+}
+
+.chatHeader {
+  margin-top: 0;
+  color: #fff;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  margin-bottom: 10px;
+  text-align: right;
+}
+
+.content {
+  overflow: auto;
+  height: 280px;
+
+}
+
+.content-input{
+  bottom: 50px;
+  width: 300px;
+}
